@@ -2,6 +2,15 @@
 
 A React + Vite peer-learning prototype with an optional Gemini AI study buddy.
 
+## Public demo
+
+The GitHub Pages site will be available at <https://vipharshdeep1-code.github.io/PeerBridge/>
+after the Pages deployment workflow succeeds.
+It uses browser local storage and the offline subject-specific AI demo answers.
+GitHub Pages is static hosting; it does not run the Gemini API server. To use
+live Gemini answers, run both local services as described below or deploy the
+API server separately and configure the frontend API URL.
+
 ## Run locally
 
 1. Install Node.js 20 or newer.
